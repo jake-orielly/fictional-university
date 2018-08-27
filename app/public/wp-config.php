@@ -19,8 +19,7 @@
  */
 
 // ** MySQL settings ** //
-
-if (file_exists(dirname(__FILE__) . '/local.php')) {
+/*if (file_exists(dirname(__FILE__) . '/local.php')) {
     //Local database settings
     define( 'DB_NAME', 'local' );
     define( 'DB_USER', 'root' );
@@ -28,13 +27,13 @@ if (file_exists(dirname(__FILE__) . '/local.php')) {
     define( 'DB_HOST', 'localhost' );
 }
 
-else {
+else {*/
     //Live database settings
     define( 'DB_NAME', 'jakeo331_universitydata' );
     define( 'DB_USER', 'jakeo331_wp937' );
     define( 'DB_PASSWORD', 'k0diakb3ar' );
     define( 'DB_HOST', 'localhost' );
-}
+//}
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'local' );
 
